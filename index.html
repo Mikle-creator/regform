@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>regform</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device=width">
+	<link type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 600, 700, 900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="block">
+    <form action="">
+    <div class="container">
+    <h1>Реєстрація</h1>
+    <p>Будь ласка, заповніть цю форму для реєстрації</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="електронна пошта" name="email" required>
+
+    <label for="email"><b>Відділення пошти</b></label>
+    <input type="text" placeholder="відділення пошти" name="email" required>
+
+    <label for="age"><b>Вік</b></label>
+    <select id="age" name="age">
+      <option value="a15">15</option>
+      <option value="a16">16</option>
+      <option value="a17">17</option>
+    </select>
+
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="ввод паролю" name="psw" required>
+
+    <label for="psw-repeat"><b>Пароль(повторно)</b></label>
+    <input type="password" placeholder="повторний ввод паролю" name="psw-repeat" required>
+    <br>
+    <input type="checkbox" id="click" checked="yes">
+    <label for="click" class="text"> Я згоден з політикою пошти</label>
+    <br>
+    <input type="checkbox" id="click">
+    <label for="click" class="text"> Я буду отримувачем</label>
+    <br>
+    <br>
+    <hr>
+
+  <input type="submit" value="Відправити">
+</div>
+
+  <div class="container signin">
+    <p>Ще не маєте акаунту? <a href="#">Створіть його</a>.</p>
+  </div>
+</form>
+</div>
+</body>
+</html>
